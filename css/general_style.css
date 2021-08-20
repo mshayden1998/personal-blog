@@ -1,0 +1,84 @@
+/* @author Marcelo Silveira Hayden */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto 10%;
+}
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+nav {
+    text-align: center;
+}
+nav a, nav span.link_wanabe {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+nav a:hover, nav span.link_wanabe:hover {
+    color: orangered;
+}
+nav span.link_wanabe:hover {
+    cursor: default;
+}
+
+ul#subjects_list {
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(231, 231, 231);
+}
+
+.section_name {
+    font-weight: normal;
+    color: gray;
+}
+
+section {
+    margin: auto 10%;
+}
+
+#latest_post_container h3 {
+    margin: 16px auto;
+    font-size: 2em;
+}
+#latest_post_container img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+#latest_post_container p:after {
+    content: ' [...]';
+}
+
+#posts_nav {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+#posts_nav img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+}
+#posts_nav a {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+#posts_nav a:hover {
+    text-decoration: underline;
+}
+#posts_nav a:visited {
+    color: blueviolet;
+}
+#posts_nav span {
+    margin: 10px auto;
+    display: block;
+}
