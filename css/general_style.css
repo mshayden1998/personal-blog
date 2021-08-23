@@ -25,12 +25,13 @@ nav a:hover, nav span.link_wanabe:hover {
     color: orangered;
 }
 nav span.link_wanabe:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
 ul#subjects_list {
     margin: auto;
     padding: 15px;
+    padding-left: 25%;
     background-color: rgb(231, 231, 231);
 }
 
