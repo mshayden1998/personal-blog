@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 body {
+    max-width: 70%;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
-    margin: auto 10%;
 }
 header {
     padding: 30px;
+    padding-bottom: 0;
     text-align: center;
     font-size: 1.5em;
 }
@@ -21,7 +23,7 @@ nav a, nav span.link_wanabe {
     margin: 10px;
     padding: 10px;
 }
-nav a:hover, nav span.link_wanabe:hover {
+a, nav a:hover, nav span.link_wanabe:hover, #current_page {
     color: orangered;
 }
 nav span.link_wanabe:hover {
@@ -35,13 +37,9 @@ ul#subjects_list {
     background-color: rgb(231, 231, 231);
 }
 
-.section_name {
+h2.section_name {
     font-weight: normal;
     color: gray;
-}
-
-section {
-    margin: auto 10%;
 }
 
 #latest_post_container h3 {

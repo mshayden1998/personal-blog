@@ -1,0 +1,20 @@
+article {
+    margin: auto 20%;
+}
+#arti_info {
+    color: #828282;
+}
+article h1 {
+    font-weight: normal;
+}
+#author_cntr {
+    max-width: 50%;
+    display: flex;
+}
+#author_cntr img {
+    height: 150px;
+    border-radius: 21px;
+}
+#author_cntr p {
+    margin: 0 10px;
+}
