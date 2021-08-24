@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1440, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Blog</title>
+    <link rel="shortcut icon" href="images/favicon-brain.png" type="image/png">
     <link rel="stylesheet" href="css/general_style.css">
     <link rel="stylesheet" href="css/contact_form.css">
 </head>
@@ -14,7 +15,7 @@
     <nav>
         <a href="index.html">Main Page</a>
         <span class="link_wanabe" id="subjects_btn">Subjects</span>
-        <a href="contact-me.html">Contact me</a>
+        <a href="contact-me.html" id="current_page">Contact me</a>
     </nav>
     <ul id="subjects_list">
         <li>Technology</li>
@@ -24,22 +25,22 @@
 
     <h2 class="section_name">Contact me</h2>
     <section>
-        <form action="">
+        <form action="/">
             <label for="input_name">
                 <span>Your first name:</span>
-                <input type="text" name="name" id="input_name">
+                <input type="text" name="name" id="input_name" placeholder="Marcelo">
             </label>
             <label for="input_email">
                 <span>Your e-mail address, so I can respond you:</span>
-                <input type="email" name="email" id="input_email">
+                <input type="email" name="email" id="input_email" placeholder="marcelo@email.com">
             </label>
             <label for="input_msg">
                 <span>Your message:</span>
-                <textarea name="msg" id="input_msg" rows="10"></textarea>
+                <textarea name="msg" id="input_msg" rows="10" placeholder="Olá! Como vai?"></textarea>
             </label>
             <input id="send_btn" type="submit" value="Send message">
         </form>
     </section>
+    <script src="js/top_menu.js"></script>
 </body>
-<script src="js/top_menu.js"></script>
 </html>

@@ -8,13 +8,21 @@ article {
 article h1 {
     font-weight: normal;
 }
+article p {
+    text-indent: 0.9cm;
+}
+article img#heading_img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
 #author_cntr {
     margin: 40px 0;
     max-width: 50%;
     display: flex;
 }
 #author_cntr img {
-    height: 150px;
+    height: 120px;
     border-radius: 21px;
 }
 #author_cntr p {
