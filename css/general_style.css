@@ -60,24 +60,23 @@ h2.section_name {
     grid-gap: 10px;
     grid-template-columns: auto auto auto;
 }
-#posts_nav img {
+.post_prev_card img {
     width: 100%;
     max-height: 180px;
     object-fit: cover;
 }
-#posts_nav a {
-    font-weight: bold;
+.post_prev_card a {
     font-size: 1.2em;
     text-decoration: none;
     color: black;
 }
-#posts_nav a:hover {
+.post_prev_card a:hover {
     text-decoration: underline;
 }
-#posts_nav a:visited {
+.post_prev_card a:visited {
     color: blueviolet;
 }
-#posts_nav span {
-    margin: 10px auto;
+.post_prev_card span {
+    margin-bottom: 10px;
     display: block;
 }
