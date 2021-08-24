@@ -1,5 +1,6 @@
 article {
-    margin: auto 20%;
+    margin: auto;
+    max-width: 800px;
 }
 #arti_info {
     color: #828282;
@@ -9,7 +10,7 @@ article h1 {
 }
 #author_cntr {
     margin: 40px 0;
-    max-width: 65%;
+    max-width: 50%;
     display: flex;
 }
 #author_cntr img {
