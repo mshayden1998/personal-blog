@@ -2,9 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 body {
-    max-width: 70%;
-    margin: auto;
     font-family: 'Roboto', sans-serif;
+}
+@media screen and (min-width: 1030px) {
+    body {
+        margin: 8px auto;
+        max-width: 1015px;
+    }
 }
 header {
     padding: 30px;

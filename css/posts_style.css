@@ -8,7 +8,8 @@ article h1 {
     font-weight: normal;
 }
 #author_cntr {
-    max-width: 50%;
+    margin: 40px 0;
+    max-width: 65%;
     display: flex;
 }
 #author_cntr img {
